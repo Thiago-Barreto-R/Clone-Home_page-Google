@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px;
+
+        ul {
+            display: flex;
+            list-style: none;
+
+            li {
+                
+                a {
+                    padding: 10px;
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #fff;
+                    font-family: sans-serif;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+        }
+
+        div {
+            background-color: #000;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            
+        }
+    }
+}
